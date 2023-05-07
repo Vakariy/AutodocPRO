@@ -2,7 +2,6 @@
 Autotest framework based on java + maven
 Create src/main/java/constants/Credentials.java
 package constants;
-
 public class Credentials {
     public static class Credential{
         public static final String USER_NAME = "-";
@@ -13,3 +12,5 @@ public class Credentials {
         public static final String BIC = "-";
     }
 }
+
+Show Allure report after test run: allure serve allure-results  
