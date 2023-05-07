@@ -7,7 +7,6 @@ public class Credentials {
     public static class Credential{
         public static final String USER_NAME = "-";
         public static final String PASSWORD = "-";
-
         //SEPA
         public static final String ALIAS = "-";
         public static final String IBAN = "-";
