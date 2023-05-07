@@ -1,0 +1,40 @@
+# Default ignored files
+/shelf/
+/.idea/workspace.xml
+
+# Maven files
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.checkstyle
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+
+# TestNG files
+test-output/
+
+# Log files
+*.log
+
+# Other files
+.DS_Store
+Thumbs.db
+allure-results/
+build/
+*.html
+*.png
+*.js
+*.css
+src/main/java/constants/Credentials.java
+
+

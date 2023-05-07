@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Smoke suite">
+    <test name="UI Create car tab via reg number">
+        <classes>
+            <class name="add_car_tab.UICreateCarTabSelectorTestBase"></class>
+        </classes>
+    </test>
+    <test name="UI Order place full user flow">
+        <classes>
+            <class name="e2e.CheckPossibilityToAddProductItemToBasket"></class>
+        </classes>
+    </test>
+    <test name="UI Order place short user flow">
+        <classes>
+            <class name="basket.UIcreateOrder"></class>
+        </classes>
+    </test>
+    <test name="API Delete all tabs">
+        <classes>
+            <class name="vehicle_tab.APIVehicleTestBaseTab"></class>
+        </classes>
+    </test>
+    <test name="API Set up garage working hours">
+        <classes>
+            <class name="working_hours.APIWorkingHours"></class>
+        </classes>
+    </test>
+</suite>
