@@ -1,6 +1,5 @@
-# AutodocPro
-Autotest framework based on java + maven
 Create src/main/java/constants/Credentials.java
+
 package constants;
 public class Credentials {
     public static class Credential{
