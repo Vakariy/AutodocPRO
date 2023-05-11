@@ -43,10 +43,6 @@ public class UIBaseTest {
         loginTest.testLogin();
     }
 
-//    @BeforeTest
-//    public void BeforeTests() {
-//
-//    }
     @AfterSuite
     public void AfterSuite() {
         Selenide.closeWebDriver();
