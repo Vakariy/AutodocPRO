@@ -25,4 +25,5 @@ public class Dashboard_page {
         return $x("//button[@class='ant-btn ant-btn-primary ant-btn-lg ant-btn-block btn--9PFw']/span[text" +
                 "()='Ok']");
     }
+
 }

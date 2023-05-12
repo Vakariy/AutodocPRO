@@ -1,6 +1,5 @@
 package pages.dashboard;
 
-import static com.codeborne.selenide.Selenide.*;
 import static constants.Constant.DataInfo.REG_NUMBER_BMW_3_Berline;
 
 public class Dashboard_logic extends Dashboard_page {
@@ -13,13 +12,13 @@ public class Dashboard_logic extends Dashboard_page {
         return activeCarRegNumber().getText();
     }
 
-    public void clickRandomCarModel(){
+    public void clickFirstCarModel(){
         firstDropdownSelector().click();
-        $$(listSelector()).get((int) (Math.random() * $$(listSelector()).size())).click();
+            listSelector().first().click();
         secondDropdownSelector().click();
-        $$(listSelector()).get((int) (Math.random() * $$(listSelector()).size())).click();
+            listSelector().first().click();
         thirdDropdownSelector().click();
-        $$(listSelector()).get((int) (Math.random() * $$(listSelector()).size())).click();
+            listSelector().first().click();
         OkButtonSelector().click();
     }
-}   
+}
