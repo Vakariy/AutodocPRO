@@ -13,8 +13,10 @@ import authorization.UIBaseTestAuthorization;
 import org.testng.annotations.Listeners;
 import pages.basket.Basket_logic;
 import pages.catalog.Catalog_logic;
+import pages.catalog.Catalog_page;
 import pages.cookie.Cookie_modal_logic;
 import pages.dashboard.Dashboard_logic;
+import pages.dashboard.Dashboard_page;
 import pages.listing.Listing_logic;
 import pages.signin.Sign_in_logic;
 
@@ -26,8 +28,8 @@ public class UIBaseTest {
     protected Catalog_logic catalogLogic = new Catalog_logic();
     protected Listing_logic listingPage = new Listing_logic();
     protected Basket_logic basketLogic = new Basket_logic();
-
-
+    protected Dashboard_page dashboardPage = new Dashboard_page();
+    protected Catalog_page catalogPage = new Catalog_page();
 
     @BeforeSuite
     public static void SetUpSelenide(){
@@ -43,10 +45,6 @@ public class UIBaseTest {
         loginTest.testLogin();
     }
 
-//    @BeforeTest
-//    public void BeforeTests() {
-//
-//    }
     @AfterSuite
     public void AfterSuite() {
         Selenide.closeWebDriver();
