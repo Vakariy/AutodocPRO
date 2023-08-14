@@ -1,12 +1,10 @@
 package working_hours;
 
-import api.WorkingHours;
 import base.APIBaseTest;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import io.qameta.allure.Step;
 import org.testng.Assert;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import java.io.IOException;
 import java.nio.file.Files;

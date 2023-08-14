@@ -31,8 +31,6 @@ public class UIBaseTest {
     protected Dashboard_page dashboardPage = new Dashboard_page();
     protected Catalog_page catalogPage = new Catalog_page();
 
-
-
     @BeforeSuite
     public static void SetUpSelenide(){
         WebDriverManager.chromedriver().setup();
