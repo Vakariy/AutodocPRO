@@ -1,0 +1,11 @@
+{
+  "fullName": "John Doe",
+  "phonePrefix": {
+    "id": 7,
+    "value": "fr",
+    "label": "+33",
+    "isActive": true
+  },
+  "phoneNumber": "200+002",
+  "email": "uvdovk@fexpost.com"
+}
