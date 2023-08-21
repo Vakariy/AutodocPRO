@@ -1,0 +1,27 @@
+{
+  "carServiceName": "SAS EURO DISNEY ASSOCIES SAS",
+  "companyEmail": "uvdovk@fexpost.com",
+  "phonePrefix": {
+    "id": 7,
+    "value": "FR",
+    "label": "+33"
+  },
+  "phoneNumber": "200+002",
+  "registrationNumber": "07397471822",
+  "vat": "07397471822",
+  "businessType": {
+    "id": 2,
+    "value": "car_dealer",
+    "label": "Concessionnaire automobile (Renault, VW, Ford..)"
+  },
+  "quantityEmployees": {
+    "id": 3,
+    "value": "between_6_10",
+    "label": "Entre 6 et 10"
+  },
+  "quantityAutolifts": {
+    "id": 2,
+    "value": "1",
+    "label": "1"
+  }
+}

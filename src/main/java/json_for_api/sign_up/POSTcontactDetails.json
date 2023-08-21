@@ -1,0 +1,95 @@
+{
+  "confirm": true,
+  "newsletters": true,
+  "calls": true,
+  "personalInfo": {
+    "name": "Autotest",
+    "surname": "Test",
+    "position": "QA",
+    "email": "uvdovk@fexpost.com",
+    "number": [
+      {
+        "id": null,
+        "phoneNumber": "200+002",
+        "phonePrefix": {
+          "id": 7,
+          "value": "33",
+          "label": "+33"
+        }
+      },
+      {
+        "id": null,
+        "phoneNumber": "01234567",
+        "phonePrefix": {
+          "id": 7,
+          "value": "33",
+          "label": "+33"
+        }
+      }
+    ]
+  },
+  "representatives": [
+    {
+      "id": null,
+      "name": "Test name 2",
+      "surname": "Test surname 2",
+      "position": "Test position",
+      "email": "test1@test.com",
+      "number": [
+        {
+          "id": null,
+          "phoneNumber": "012345678",
+          "phonePrefix": {
+            "id": 7,
+            "value": "fr",
+            "label": "+33"
+          }
+        },
+        {
+          "id": null,
+          "phoneNumber": "012345678",
+          "phonePrefix": {
+            "id": 7,
+            "value": "fr",
+            "label": "+33"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Test name 3",
+      "surname": "Test surname 3",
+      "position": "Test position 3",
+      "email": "test2@test.com",
+      "number": [
+        {
+          "id": null,
+          "phoneNumber": "012345678",
+          "phonePrefix": {
+            "id": 7,
+            "value": "fr",
+            "label": "+33"
+          }
+        },
+        {
+          "id": null,
+          "phoneNumber": "01234567",
+          "phonePrefix": {
+            "id": 7,
+            "value": "fr",
+            "label": "+33"
+          }
+        },
+        {
+          "id": null,
+          "phoneNumber": "01234567",
+          "phonePrefix": {
+            "id": 7,
+            "value": "fr",
+            "label": "+33"
+          }
+        }
+      ]
+    }
+  ]
+}

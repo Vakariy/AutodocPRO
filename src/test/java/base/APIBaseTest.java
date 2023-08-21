@@ -13,9 +13,10 @@ public class APIBaseTest {
     protected Sepa sepa = new Sepa();
     protected VehicleTab vehicleTab = new VehicleTab();
     protected WorkingHours workingHours = new WorkingHours();
+    protected SignUp signUp = new SignUp();
 
-    @BeforeClass
-    public void setUp() {
-        token = Auth.GetToken();
-    }
+//    @BeforeClass
+//    public void setUp() {
+//        token = Auth.GetToken();
+//    }
 }

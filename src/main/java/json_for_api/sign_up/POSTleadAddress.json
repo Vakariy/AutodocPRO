@@ -1,0 +1,28 @@
+{
+  "shippingAddress": {
+    "companyName": "SAS EURO DISNEY ASSOCIES SAS",
+    "city": "CHESSY",
+    "street": "RUE DE LA GALMY",
+    "houseNumber": "1",
+    "index": "77700",
+    "additionalDetails": "details",
+    "country": {
+      "id": 7,
+      "value": "fr",
+      "label": "+33",
+      "isActive": true
+    }
+  },
+  "billingAddress": {
+    "city": "CHESSY",
+    "street": "RUE DE LA GALMY",
+    "houseNumber": "1",
+    "index": "77700",
+    "country": {
+      "id": 7,
+      "value": "fr",
+      "label": "+33",
+      "isActive": true
+    }
+  }
+}
