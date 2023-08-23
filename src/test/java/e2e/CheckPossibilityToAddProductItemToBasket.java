@@ -5,12 +5,10 @@ import api.BasketTab;
 import api.Sepa;
 import io.qameta.allure.Step;
 import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import base.UIBaseTest;
 
 import static com.codeborne.selenide.Selenide.open;
-import static com.codeborne.selenide.Selenide.refresh;
 import static constants.Constant.Url.*;
 
 public class CheckPossibilityToAddProductItemToBasket extends UIBaseTest {

@@ -15,6 +15,8 @@ public class APIBaseTest {
     protected WorkingHours workingHours = new WorkingHours();
     protected SignUp signUp = new SignUp();
 
+    protected Cowin cowin = new Cowin();
+
 //    @BeforeClass
 //    public void setUp() {
 //        token = Auth.GetToken();

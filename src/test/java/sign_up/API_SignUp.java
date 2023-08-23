@@ -12,7 +12,13 @@ public class API_SignUp extends APIBaseTest {
         signUp.registerCompanyInformation(hash);
         signUp.registerDeliveryAddress(hash);
         signUp.registerContactDetails(hash);
-        String customer_id = signUp.registerLeadInAWS(hash);
+        int customer_id = signUp.registerLeadInAWS(hash);
+
+        String tokenCowin = cowin.loginCowin();
+        cowin.getInfoByCustomerId(customer_id, tokenCowin);
+        cowin.postConfirmationCustomerCowin(customer_id, tokenCowin);
+
         System.out.println(customer_id);
+        System.out.println("7djaA36$");
     }
 }
