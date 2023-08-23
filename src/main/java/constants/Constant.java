@@ -31,5 +31,6 @@ public class Constant {
         public static final String REGISTER_DELIVERY_ADDRESS = API_URI + "/lead/{hash}/delivery";
         public static final String REGISTER_CONTACT_DETAILS = API_URI + "/lead/{hash}/details";
         public static final String REGISTER_LEAD_IN_AWS = API_URI + "/auth/registration";
+        public static final String AUTH_COWIN = "https://apis.cowin.autodoc.de/api/login";
     }
 }
